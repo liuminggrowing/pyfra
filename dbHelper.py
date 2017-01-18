@@ -1,6 +1,6 @@
 import sys
 import os
-from mylog import mylog
+from logHelper import logHelper
 import ConfigParser
 import MySQLdb
 import MySQLdb.cursors
