@@ -22,6 +22,9 @@ class mydb:
                 self.cf.get(section,'db'))
 
 
+    def connDb(self,db_name):
+        self.db.select_db(db_name)
+
     def close(self):
         self.db.close()
 
